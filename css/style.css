@@ -315,30 +315,39 @@ grid-area: main;
 }
 
 .seccion__cursos {
+  background: url(https://i.ibb.co/Gk7LN1p/imagen-bitcoin5.jpg) no-repeat center center/cover;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
+}
+.titulo__seccion__cursos{
+  font-size: 4rem;  
+  text-align: center;
 }
 .container__seccion__cursos{
   display: flex;
   flex-direction: column;
   width: 80%;
+ max-height: 100vh;
   margin: 0 auto;
   
 }
 .cursos__seccion__cursos{
+
+  height: 100%;
   display: flex;
   align-items: space-between;
-  gap: 20px;
+  gap: 8rem;
 }
-/*https://i.ibb.co/9y0VZrD/cursos1.jpg*/
+/**/
 
 .sidebar__cursos {
   width: 100vw;
   height: 100vh;
-  background: url() no-repeat center
-  center/cover;
+  background: url(https://i.ibb.co/rGcJHJj/imagen-bitcoin6.jpg) no-repeat center center/cover;
 }
 .container__main__cursos {
   width: 100%;
@@ -370,15 +379,15 @@ grid-area: main;
 .curso3{
   width:32vw;
   height: 80vh;
-  padding: 2rem;
+  padding: 1.4rem;
   display: flex;
   flex-direction: column;
   border: 1px solid #333;
   border-radius: 40px;
   box-shadow: 0, 5px, 10px, -5px rgba(0, 0, 0, 0.055);
-  background: rgba(24, 23, 23, 0.836);
+  background: rgba(2, 2, 2, 0.911);
   justify-content:space-around;
- object-fit: contain;
+ object-fit: cover;
 }
   .curso1 ul{
     font-family: Poppins;
@@ -386,8 +395,8 @@ grid-area: main;
     font-weight: 700;
   }
 .promo{
-  height: 200px;
-  width: 280px;
+  height: 140px;
+  width: 200px;
   border: 3px dotted rgb(25, 246, 253);
   display: flex;
   justify-content: center;
@@ -397,7 +406,7 @@ grid-area: main;
   padding-left: 2rem;
 }
 .promo h2{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .titulo__main__cursos{
@@ -410,11 +419,29 @@ grid-area: main;
   grid-row: 2/5;*/
   grid-area: formulario;
 }
+.formulario__main__cursos input, textarea{
+  padding: 5px;
+  font-family: Popins;
+  border-radius: 10px;
+}
+.formulario__main__cursos .boton__formulario{
+  width: 40%;
+ background-color: rgb(25, 246, 253);
+ color: white;
+ font-size: 1.5rem;
+ padding: 5px;
+
+  justify-content: center;
+}
+form{
+  display: flex;
+}
 .form__cursos{
+  
   border: 1px solid #333;
   border-radius: 40px;
   box-shadow: 0, 5px, 10px, -5px rgba(0, 0, 0, 0.055);
-  background: rgba(24, 23, 23, 0.836);
+  background: rgba(2, 2, 2, 0.911);
   text-align: center;
   display: flex;
   flex-direction: column;
