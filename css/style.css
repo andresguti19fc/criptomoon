@@ -319,13 +319,11 @@ grid-area: main;
   width: 100vw;
   min-height: 100vh;
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   margin: 0 auto;
 }
 .titulo__seccion__cursos{
-  font-size: 4rem;  
-  text-align: center;
+ 
 }
 .container__seccion__cursos{
   display: flex;
@@ -344,11 +342,7 @@ grid-area: main;
 }
 /**/
 
-.sidebar__cursos {
-  width: 100vw;
-  height: 100vh;
-  background: url(https://i.ibb.co/rGcJHJj/imagen-bitcoin6.jpg) no-repeat center center/cover;
-}
+
 .container__main__cursos {
   width: 100%;
   max-height: 100vh;
@@ -366,7 +360,7 @@ grid-area: main;
 }
 .titulo{
   grid-area: titulo;
-  justify-content: center;
+
   
 }
 .curso1 h2{
@@ -457,6 +451,18 @@ gap: 1rem;
   flex-direction: column;
   gap: 2rem;
   justify-content: space-around;
+}
+
+.sidebar__cursos {
+  width: 100vw;
+  height: 100vh;
+  background: url(https://i.ibb.co/rGcJHJj/imagen-bitcoin6.jpg) no-repeat center center/cover;
+  display: grid;
+  grid-template-areas: 
+  ""
+  ""
+  ""
+  "";
 }
 /* cursos.html */
 
@@ -590,6 +596,124 @@ gap: 4rem;
 /* galeria.html */
 
 /* contactos.html */
+.main__contactos{
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 20rem;
+}
+
+.container__contactos{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+   border-radius: 20px;
+}
+.contenido__contactos{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    width: 50vw;
+    height: 100%;
+    
+     border-radius: 20px;
+}
+
+.contactos__form{
+    background: #222222;
+   
+   
+   
+}
+.contactos__form {
+    margin: 0;
+    padding: 1em;
+    grid-column: 1/2;
+}
+.contactos__form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    color: #fff;
+}
+.contactos__form form .fr{
+    grid-column: 1/3;
+}
+.contactos__form form button,
+.contactos__form form input,
+.contactos__form form textarea{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background: none;
+    border-bottom: 2px solid  #00e1ff;
+    outline: none;
+
+}
+.contactos__form form p{
+  padding: 1rem;
+}
+.contactos__form form button{
+    background: #00e1ff;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.contactos__form form button:hover{
+    background: #00e1ff77;
+    transition: background 1s ease-out;
+}
+
+.contactos__informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:5px;
+    background: #222222;
+    color: #FFF;
+}
+.contactos__informacion h2,
+.contactos__informacion p,
+.contactos__informacion ul{
+    
+    margin-bottom: 1rem;
+}
+.contactos__informacion ul{
+    list-style: none;
+    padding: .6rem;
+}
+.contactos__informacion ul li{
+    display: flex;
+    padding: .5rem;
+    gap: 1rem;
+}
+.contactos__informacion ul li i{
+    color: aqua;
+}
+.contactos__informacion h3,
+.nombre__info{
+    color: aqua;
+}
+.map{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    grid-column: 1/3;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
 
 .seccion__contactos {
 }
