@@ -318,6 +318,7 @@ grid-area: main;
   background: url(https://i.ibb.co/Gk7LN1p/imagen-bitcoin5.jpg) no-repeat center center/cover;
   width: 100vw;
   min-height: 100vh;
+  padding-bottom: 2rem;
   height: 100%;
   display: grid;
   margin: 0 auto;
@@ -455,14 +456,34 @@ gap: 1rem;
 
 .sidebar__cursos {
   width: 100vw;
-  height: 100vh;
-  background: url(https://i.ibb.co/rGcJHJj/imagen-bitcoin6.jpg) no-repeat center center/cover;
+  min-height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://i.ibb.co/rGcJHJj/imagen-bitcoin6.jpg) no-repeat center center/cover;
+}
+.container__sidebar__cursos{
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
   display: grid;
   grid-template-areas: 
-  ""
-  ""
-  ""
-  "";
+  "titulo1 titulo1"
+  "titulo titulo"
+  "curso1 curso2"
+  "curso1 curso2";
+}
+.titulo__sidebar__cursos{
+  grid-area: titulo1;
+}
+.plan__estudio{
+  grid-area: titulo;
+
+}
+.curso1__sidebar{
+  grid-area:curso1;
+  width: 40vw;
+}
+.curso2__sidebar{
+  grid-area:curso2;
+  width: 40vw;
 }
 /* cursos.html */
 
