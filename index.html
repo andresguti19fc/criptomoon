@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>criptomoon</title>
     <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+ 
 </head>
 <body>
     <!-- header -->
-    <div class="container">
+    <div class="container container--fluid">
     <header class="header row">
         
-        <h2 class="logo white">German <span class="span--color">Vivas</span></h2>
+        <h2 class="logo white wow animate__animated animate__headShake">German <span class="span--color">Vivas</span></h2>
         <nav class="navbar">
             <ul class="nav__ul style--none row">
                 <li><a class="white decoration--none" href="index.html">inicio</a></li>
@@ -30,7 +33,7 @@
  <!-- main -->
     <main class="main main__index">
         <div class="titulo">
-            <h1 class="white titulo__center">Cripto<span class="span--color">moon</span></h1>
+            <h1 class="white titulo__center wow animate__animated animate__jello">Cripto<span class="span--color">moon</span></h1>
             <p class="white center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad reiciendis quam.</p>
         </div>
     </main>
@@ -38,7 +41,7 @@
 
  <!-- seccion -->
     <section class="seccion margen seccion__index">
-        <h2 class="titulo__center white titulo__seccion__index">finanzas</h2>
+        <h2 class="titulo__center white titulo__seccion__index wow animate__animated wow animate__bounceInLeft">finanzas</h2>
        
             <div class="container1__seccion">
                 
@@ -67,7 +70,7 @@
 
  <!-- sidebar -->
     <aside class="sidebar sidebar__index">
-        <h2 class="titulo__center white titulo__sidebar__index">tips de finanzas</h2>
+        <h2 class="titulo__center white titulo__sidebar__index wow animate__animated wow animate__bounceInLeft">tips de finanzas</h2>
     <div class="container__card container__card__sidebar__index">
 
         <div class="card border1 center card__sidebar__index1">
@@ -114,7 +117,7 @@
 
  <!-- footer -->
  <footer class="footer">
-    <h2 class="span--color">siguenos en las redes</h2>
+    <h2 class="span--color wow animate__animated wow animate__bounceInLeft">siguenos en las redes</h2>
     <div class="redes__sociales">
         <ul class="row style--none">
             <li class="col"><a href=""><i class="fab fa-whatsapp span--color"></i></a><a href="" class="span--color decoration--none" > whatsapp</a></li>
@@ -126,6 +129,10 @@
 </footer>
 </div>
  <!-- footer -->
+ <script src="wow.min.js" crossorigin="anonymous"></script>
+ <script>
+     new WOW().init();
+ </script>
  <script src="https://kit.fontawesome.com/2ef7915dd3.js" crossorigin="anonymous"></script>
 </body>
 </html>

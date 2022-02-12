@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>criptomoon</title>
+    <title class="">criptomoon</title>
     <link rel="stylesheet" href="../css\style.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <body>
     <!-- header -->
     <div class="container">
     <header class="header row">
         
-        <h2 class="logo white">German <span class="span--color">Vivas</span></h2>
+        <h2 class="logo white wow animate__animated animate__jello">German <span class="span--color">Vivas</span></h2>
         <nav class="navbar">
             <ul class="nav__ul style--none row">
                 <li><a class="white decoration--none" href="../index.html">inicio</a></li>
@@ -30,9 +30,9 @@
  <!-- main -->
  
     <main class="main main__galeria row">
-        <h1 class="titulo__center white titulo__main__galeria">galeria de imagenes</h1>
+        <h1 class="titulo__center white titulo__main__galeria wow animate__animated animate__jello">galeria de imagenes</h1>
          <div class="container__galeria galeria galeria__main__galeria">
-            <div class="img__galeria1"><img class="img__galeria" src="../imagenes\imagen17.jpg" alt=""></div>
+            <div class="img__galeria1 wow animate__animated animate__slideInDown"><img class="img__galeria" src="../imagenes\imagen17.jpg" alt=""></div>
               <!--<div class="text__background">
                   <h2>Imagenes</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam tempore distinctio vitae dolores est vero sunt dicta recusandae? Soluta, corporis.</p>
@@ -85,7 +85,7 @@
 
     <section class="seccion seccion__galeria">
         <div class="container__videos__galeria">
-        <h2 class="white titulo__center .titulo__seccion__galeria">galeria de videos</h2>
+        <h2 class="white titulo__center .titulo__seccion__galeria wow animate__animated animate__jello">galeria de videos</h2>
         <div class="videos__galeria margen">
             <div class="video1">
             <iframe class="vid__galeria" width="560" height="315" src="https://www.youtube.com/embed/0t9q2Xg45Ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -108,13 +108,13 @@
  <!-- sidebar -->
     <aside class="sidebar sidebar__galeria">
         <div class="container__sidebar__galeria container__card">
-        <h2 class="titulo__center white titulo__seccion__galeria">tips de finanzas</h2>
+        <h2 class="titulo__center white titulo__seccion__galeria wow animate__animated animate__bounceInLeft">tips de finanzas</h2>
             <div class="margen white row container__card__galeria">
                         <div class="card border1 center">
                            
                             <div class="img__card"><img src="../imagenes\imagen8.jpg" alt=""></div>
                            <div class="card__content">
-                             <h1>Title Here</h1>
+                             <h2 class="">Titulo</h2>
                             <p>Descriptive Text. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed est error repellat veritatis.</p>
                         </div>
                         </div>
@@ -122,7 +122,7 @@
                            
                             <div class="img__card"><img src="../imagenes\imagen9.jpg" alt=""></div>
                            <div class="card__content">
-                             <h1>Title Here</h1>
+                             <h2>Titulo</h2>
                             <p>Descriptive Text. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed est error repellat veritatis.</p>
                         </div>
                         </div>
@@ -130,7 +130,7 @@
                            
                             <div class="img__card"><img src="../imagenes\imagen10.jpg" alt=""></div>
                            <div class="card__content">
-                             <h1>Title Here</h1>
+                             <h2>Titulo</h2>
                             <p>Descriptive Text. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed est error repellat veritatis.</p>
                 </div>
                         </div>
@@ -142,7 +142,7 @@
 
  <!-- footer -->
  <footer class="footer">
-    <h2 class="span--color">siguenos en las redes</h2>
+    <h2 class="span--color wow animate__animated animate__lightSpeedInLeft">siguenos en las redes</h2>
     <div class="redes__sociales">
         <ul class="row style--none">
             <li class="col"><a href=""><i class="fab fa-whatsapp span--color"></i></a><a href="" class="span--color decoration--none" > whatsapp</a></li>
@@ -154,6 +154,8 @@
 </footer>
  <!-- footer -->
 </div>
+<script src="wow.min.js" crossorigin="anonymous"></script>
+<script> new WOW().init();</script>
  <script src="https://kit.fontawesome.com/2ef7915dd3.js" crossorigin="anonymous"></script>
 </body>
 </html>
