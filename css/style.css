@@ -54,6 +54,9 @@ body{
 .span--color {
   color: rgb(25, 246, 253);
 }
+.bg--color{
+  background-color: rgb(25, 246, 253);;
+}
 .style--none {
   list-style: none;
 }
