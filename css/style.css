@@ -140,43 +140,44 @@ gap: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius:.5em;
     
- }
-
- .contenido__contactos{
+  }
+  .container__contactos h1{
+   padding-top: 10rem;
+  }
+  .contenido__contactos{
      display: grid;
-     grid-template-columns:2fr 1fr;
+     grid-template-columns:1fr 1fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "form form form"
+     "info info info"
+     "map map map";
      box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
      width: 50vw;
      height: 100%;
-     border-radius: 5px;
-      
- }
- 
- .contactos__form{
-     background: #222222;
-    
-    
-    
- }
- .contactos__form {
+     border-radius: .4em;   
+  }
+  .contactos__form {
+    background: #222222;
      margin: 0;
      padding: 1em;
-     grid-column: 1/2;
- }
- .contactos__form form{
+     grid-area: form;
+     border-radius: .5em;
+  }
+  .contactos__form form{
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap: 2rem;
      color: #fff;
- }
- .contactos__form form .fr{
+  }
+  .contactos__form form .fr{
      grid-column: 1/3;
- }
- .contactos__form form button,
- .contactos__form form input,
- .contactos__form form textarea{
+  }
+  .contactos__form form button,
+  .contactos__form form input,
+  .contactos__form form textarea{
      width: 100%;
      padding: 1rem;
      border: none;
@@ -184,64 +185,83 @@ gap: 2rem;
      border-bottom: 2px solid  rgb(25, 246, 253);
      outline: none;
      color: #fff;
- 
- }
- .contactos__form form p{
+  
+  }
+  .contactos__form form p{
    padding: 1rem;
- }
- .contactos__form form button{
+  }
+  .contactos__form form button{
   
      background: #222222;
      padding: 1rem;
      border: 2px solid rgb(25, 246, 253);
      border-radius: 10px;
      font-size: 2rem;
- }
- .contactos__form form button:hover{
+  }
+  .contactos__form form button:hover{
    box-shadow:0 0 10px rgb(25, 246, 253), 0 0 20px rgb(25, 246, 253);
      background: rgb(25, 246, 253);
      color: #222222;
      transition: background .2s ease-out;
- }
- 
- .contactos__informacion{
+  }
+  
+  .contactos__informacion{
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
      gap:5px;
      background: #222222;
      color: #FFF;
- }
- .contactos__informacion h2,
- .contactos__informacion p,
- .contactos__informacion ul{
+     grid-area: info;
+     border-radius: .5em;
+  }
+  .contactos__informacion h2,
+  .contactos__informacion p,
+  .contactos__informacion ul{
      
      margin-bottom: 1rem;
- }
- .contactos__informacion ul{
+  }
+  .contactos__informacion ul{
      list-style: none;
      padding: .6rem;
- }
- .contactos__informacion ul li{
+  }
+  .contactos__informacion ul li{
      display: flex;
      padding: .5rem;
      gap: 1rem;
- }
- .contactos__informacion ul li i{
+  }
+  .contactos__informacion ul li i{
      color: rgb(25, 246, 253);
- }
- .contactos__informacion h3,
- .nombre__info{
+  }
+  .contactos__informacion h3,
+  .nombre__info{
      color: rgb(25, 246, 253);
- }
- .map{
+  }
+  .map{
      width: 100%;
      object-fit: cover;
      overflow: hidden;
-     grid-column: 1/3;
- }
- .map iframe{
+    grid-area: map;
+    border-radius: .5em;
+  
+  }
+  .map iframe{
      width: 100%;
      height: 100%;
-
+     border-radius: .5em;
+  }
+  @media (min-width: 1000px){
+  .contenido__contactos{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "form form info"
+    "form form info"
+    "map map map";
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    width: 50vw;
+    height: 100%;
+    border-radius: 20px;   
  }
+}
