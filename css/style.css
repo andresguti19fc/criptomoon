@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,300;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,700&family=Outfit:wght@100&family=Poppins:ital,wght@0,400;0,800;1,100&family=Urbanist:wght@300;400;500;700&display=swap");
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+
+html{
+  height: 100%;
 }
 body{
-  background-color: rgb(3, 7, 54);
+  background-color: rgba(3, 7, 54, 0.959);
+  height: 100%;
 }
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -28,11 +28,19 @@ body{
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://i.ibb.co/xXMLsXg/german.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.678) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://i.ibb.co/xXMLsXg/german.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  overflow: hidden;
+  object-fit: cover;
+
+}
+.seccion__index{
+  overflow: hidden;
+  min-height: 100%;
+  width: 100%;
 }
 .redes__sociales ul li {
   text-align: center;
