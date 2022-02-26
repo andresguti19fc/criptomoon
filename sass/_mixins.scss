@@ -25,21 +25,20 @@
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "form form form"
-    "info info info"
-    "map map map";
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+        width: 70vw;
+        height: $porcentaje;              /***variables***/
+        border-radius: $border-radius-form;  /***variables***/
 }
-@mixin grid-contactos2 {
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows: auto;
+@mixin grid__area--uno{
+  grid-template-areas: 
+  "form form form"
+  "info info info"
+  "map map map";
+}
+@mixin grid__area--dos {
   grid-template-areas: 
   "form form info"
   "form form info"
   "map map map";
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-  width: 64vw;
-  height: 100%;
-  border-radius: $border-radius-form;
 }

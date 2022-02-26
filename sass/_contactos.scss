@@ -10,10 +10,7 @@
        /***anidaciones 6***/
        .contenido__contactos{
         @include grid-contactos;
-        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-        width: 70vw;
-        height: $porcentaje;              /***variables***/
-        border-radius: $border-radius-form;  /***variables***/
+        @include grid__area--uno;
         .contactos__form {
             background: #222222;
              margin: 0;
@@ -108,7 +105,8 @@
 
      }
      @media (min-width: 1000px) {
-         @include grid-contactos2;      /*** mixins ***/
+      @include grid-contactos;
+      @include grid__area--uno;     /*** mixins ***/
         }
   }
 }
