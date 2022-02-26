@@ -1,0 +1,18 @@
+/***anidaciones 1***/
+.redes__sociales{
+    ul{
+        li{
+            text-align: center;
+            margin: 10px 30px;
+            .style__none{
+                list-style: none;
+                i{
+                    font-size: 40px;
+                    i:hover{
+                        background-color:  rgba(255, 255, 255, 0.178);
+                    }
+                }
+            }
+        }
+    }
+}

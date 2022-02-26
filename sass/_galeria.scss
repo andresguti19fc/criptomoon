@@ -1,0 +1,23 @@
+
+/***galeria***/
+/***anidaciones 4***/
+.img__galeria{ width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    overflow: hidden; 
+    border: 4px solid rgb(25, 246, 253);
+    border-radius: 10px;  
+    transition: all 0.2s ease;
+    .img__galeria:hover{
+      transform: scale(1.05);
+    }
+}
+
+.vid__galeria{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  overflow: hidden;
+  border: 4px solid rgb(25, 246, 253);
+  border-radius: 10px;
+}
