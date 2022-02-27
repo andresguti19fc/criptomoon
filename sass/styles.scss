@@ -6,8 +6,18 @@
  @import "galeria";
  @import "contactos";
 
- 
+ .container404{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+.h1404{
+    font-size: 8rem;
 
+}
+.p404{
+    font-size: 2rem;
+}
 
 
  
