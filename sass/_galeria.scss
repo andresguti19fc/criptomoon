@@ -8,7 +8,7 @@
     border: 4px solid rgb(25, 246, 253);
     border-radius: 10px;  
     transition: all 0.2s ease;
-    .img__galeria:hover{
+    &:hover{
       transform: scale(1.05);
     }
 }

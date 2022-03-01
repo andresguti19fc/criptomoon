@@ -12,4 +12,3 @@
     <p class="p404">lo siento, esta poagina no esta disponible</p>
     <a href="index.html">ir a la pagina web</a>
 </body>
-</html>
