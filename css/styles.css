@@ -243,7 +243,9 @@ body {
   /***variables***/
   border-radius: 0.5em;
   /***variables***/
-      grid-template-areas: "form form form" "info info info" "map map map";
+      grid-template-areas: "form form form"
+ "info info info"
+ "map map map";
   /***anidaciones 8***/
 }
 
@@ -409,7 +411,9 @@ body {
     /***variables***/
     border-radius: 0.5em;
     /***variables***/
-        grid-template-areas: "form form info" "form form info" "map map map";
+        grid-template-areas: "form form info"
+ "form form info"
+ "map map map";
     /*** mixins ***/
   }
 }
