@@ -77,6 +77,19 @@ body {
   color: #19f6fd;
 }
 
+.subir {
+  position: fixed;
+  top: 90%;
+  left: 92%;
+}
+.subir a {
+  color: #19f6fd;
+}
+.subir a i {
+  color: #19f6fd;
+  font-size: 40px;
+}
+
 /***anidaciones 1***/
 .redes__sociales ul li {
   text-align: center;

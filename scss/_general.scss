@@ -63,3 +63,17 @@ body {
 .span--color {
   color: $bg-color;
 }
+.subir{
+  position: fixed;
+  top: 90%;
+  left: 92%;
+  
+  a{
+    color: $span-color;
+    i{
+      color:$span-color;
+      font-size: 40px;
+      
+    }
+  }
+}
