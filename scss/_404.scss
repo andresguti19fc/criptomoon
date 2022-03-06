@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+
 .h1404{
    color: $text1;
    font-size: 8rem;
@@ -12,4 +12,8 @@
 .p404{
    color: $text1;
    font-size: 2rem;
+}
+a{
+   color: $span-color;
+}
 }

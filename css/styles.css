@@ -169,7 +169,7 @@ body {
   /***anidaciones 6***/
 }
 .container__contactos h1 {
-  padding-top: 10rem;
+  padding-top: 2rem;
 }
 .container__contactos .contenido__contactos {
   display: grid;
@@ -208,7 +208,7 @@ body {
 .container__contactos .contenido__contactos .contactos__form form textarea {
   width: 100%;
   /***variables***/
-  padding: 1rem;
+  padding: 0.4rem;
   /***variables***/
   border: none;
   background: none;
@@ -218,7 +218,7 @@ body {
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__form form p {
-  padding: 1rem;
+  padding: 0.4rem;
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__form form button {
@@ -251,7 +251,7 @@ body {
 .container__contactos .contenido__contactos .contactos__informacion h2,
 .container__contactos .contenido__contactos .contactos__informacion p,
 .container__contactos .contenido__contactos .contactos__informacion ul {
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__informacion ul {
@@ -263,7 +263,7 @@ body {
   display: flex;
   padding: 0.5em;
   /***variables***/
-  gap: 1rem;
+  gap: 0.4rem;
 }
 .container__contactos .contenido__contactos .contactos__informacion ul li i {
   color: #19f6fd;
@@ -311,15 +311,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.h1404 {
+.container404 .h1404 {
   color: #fff;
   font-size: 8rem;
 }
-
-.p404 {
+.container404 .p404 {
   color: #fff;
   font-size: 2rem;
+}
+.container404 a {
+  color: #19f6fd;
 }
 
 /*# sourceMappingURL=styles.css.map */
