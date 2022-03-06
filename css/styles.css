@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  background: rgba(3, 7, 54, 0.959);
   /***variables***/
   display: flex;
   flex-direction: column;
@@ -29,9 +28,13 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
+.btn:hover {
+  background-color: rgba(0, 1, 37, 0.976);
+  color: #19f6fd;
+}
 
 .titulo__principal {
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #fff;
   /***variables***/
@@ -93,7 +96,7 @@ body {
 /*card*/
 .card1 {
   width: 100%;
-  background-color: rgba(3, 7, 54, 0.959);
+  background-color: rgba(0, 1, 37, 0.976);
   /***variables***/
   color: #fff;
   /***variables***/

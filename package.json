@@ -16,5 +16,8 @@
     "url": "https://github.com/andresguti19fc/css-grid/issues"
   },
   "homepage": "https://github.com/andresguti19fc/css-grid#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
