@@ -89,6 +89,9 @@ body {
   color: #19f6fd;
   font-size: 40px;
 }
+.subir a i:hover {
+  color: #fff;
+}
 
 /***anidaciones 1***/
 .redes__sociales ul li {
@@ -103,6 +106,7 @@ body {
 }
 .redes__sociales ul li a i:hover {
   background-color: rgba(255, 255, 255, 0.178);
+  border-radius: 10px;
 }
 
 /***anidaciones 2***/
@@ -221,7 +225,7 @@ body {
 .container__contactos .contenido__contactos .contactos__form form textarea {
   width: 100%;
   /***variables***/
-  padding: 0.4rem;
+  padding: 1rem;
   /***variables***/
   border: none;
   background: none;
@@ -231,7 +235,7 @@ body {
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__form form p {
-  padding: 0.4rem;
+  padding: 1rem;
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__form form button {
@@ -264,7 +268,7 @@ body {
 .container__contactos .contenido__contactos .contactos__informacion h2,
 .container__contactos .contenido__contactos .contactos__informacion p,
 .container__contactos .contenido__contactos .contactos__informacion ul {
-  margin-bottom: 0.4rem;
+  margin-bottom: 1rem;
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__informacion ul {
