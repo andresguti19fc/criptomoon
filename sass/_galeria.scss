@@ -9,7 +9,8 @@
     border-radius: 10px;  
     transition: all 0.2s ease;
     .img__galeria:hover{
-      transform: scale(1.05);
+      filter: blur(2px);
+      transform:rotate(5deg) scale(1.05);
     }
 }
 
