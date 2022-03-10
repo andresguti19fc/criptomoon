@@ -10,7 +10,7 @@
     transition: all 0.2s ease;
     .img__galeria:hover{
       filter: blur(10px);
-      transform: scale(1.05);
+      transform:rotate(10px) scale(1.05);
     }
 }
 

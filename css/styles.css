@@ -89,9 +89,6 @@ body {
   color: #19f6fd;
   font-size: 40px;
 }
-.subir a i:hover {
-  color: #fff;
-}
 
 /***anidaciones 1***/
 .redes__sociales ul li {
@@ -106,7 +103,6 @@ body {
 }
 .redes__sociales ul li a i:hover {
   background-color: rgba(255, 255, 255, 0.178);
-  border-radius: 10px;
 }
 
 /***anidaciones 2***/
@@ -160,7 +156,7 @@ body {
 }
 .img__galeria .img__galeria:hover {
   filter: blur(10px);
-  transform: scale(1.05);
+  transform: rotate(10px) scale(1.05);
 }
 
 .vid__galeria {
@@ -226,7 +222,7 @@ body {
 .container__contactos .contenido__contactos .contactos__form form textarea {
   width: 100%;
   /***variables***/
-  padding: 1rem;
+  padding: 0.4rem;
   /***variables***/
   border: none;
   background: none;
@@ -236,7 +232,7 @@ body {
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__form form p {
-  padding: 1rem;
+  padding: 0.4rem;
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__form form button {
@@ -269,7 +265,7 @@ body {
 .container__contactos .contenido__contactos .contactos__informacion h2,
 .container__contactos .contenido__contactos .contactos__informacion p,
 .container__contactos .contenido__contactos .contactos__informacion ul {
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
   /***variables***/
 }
 .container__contactos .contenido__contactos .contactos__informacion ul {
