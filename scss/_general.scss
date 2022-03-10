@@ -4,14 +4,13 @@
 }
 html {
   height: $porcentaje; /***variables***/
-  
+  overflow-x:hidden;
 }
 body {
   /***variables***/
   display: flex;
   flex-direction: column;
   height: $porcentaje; /***variables***/
-  overflow-x:hidden;
   
 }
 .btn {
